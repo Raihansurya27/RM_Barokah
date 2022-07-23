@@ -414,28 +414,35 @@ public class Home extends javax.swing.JFrame {
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 66, 110, -1));
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 0));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        gambar.setForeground(new java.awt.Color(255, 255, 255));
         gambar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         gambar.setText("jLabel3");
         jPanel2.add(gambar, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, 218, 170));
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Nama Menu : ");
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, -1, 20));
 
+        namaLbl.setForeground(new java.awt.Color(255, 255, 255));
         namaLbl.setText("nama");
         jPanel2.add(namaLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 160, 20));
 
+        hargaLbl.setForeground(new java.awt.Color(255, 255, 255));
         hargaLbl.setText("nama");
         jPanel2.add(hargaLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 220, 160, 20));
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Harga : ");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 220, -1, 20));
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Deskripsi : ");
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 60, 20));
 
+        deskLbl.setForeground(new java.awt.Color(255, 255, 255));
         deskLbl.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         deskLbl.setText("nama");
         deskLbl.setToolTipText("");
@@ -478,6 +485,7 @@ public class Home extends javax.swing.JFrame {
         jPanel2.add(cboTipeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 190, 30));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Pilih Menu");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
@@ -490,6 +498,7 @@ public class Home extends javax.swing.JFrame {
         });
         jPanel2.add(pesanBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, 82, 32));
 
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Jumlah Pesanan");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 350, -1, 20));
         jPanel2.add(jumlahTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 350, 95, 30));
@@ -521,9 +530,11 @@ public class Home extends javax.swing.JFrame {
         pageTxt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel2.add(pageTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 400, 70, -1));
 
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Jenis :");
         jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
 
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Cari Menu :");
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
         jPanel2.add(cariTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 130, 30));
@@ -538,7 +549,7 @@ public class Home extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 65, 460, 430));
 
-        jPanel4.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel4.setBackground(new java.awt.Color(255, 153, 0));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         hapusBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/close_delete.png"))); // NOI18N
@@ -560,6 +571,7 @@ public class Home extends javax.swing.JFrame {
         jPanel4.add(buatPesananBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 383, 140, 40));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Pesanan");
         jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
@@ -587,10 +599,12 @@ public class Home extends javax.swing.JFrame {
 
         jPanel4.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 122, 260, 255));
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("No. Pesanan");
         jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 42, 82, 25));
         jPanel4.add(noPesanTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 120, 25));
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Nama Pemesan");
         jPanel4.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, 25));
         jPanel4.add(namaPemesanTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 90, 170, 25));
@@ -603,6 +617,7 @@ public class Home extends javax.swing.JFrame {
         });
         jPanel4.add(cekBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 40, 50, 25));
 
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("No. Pesanan maks. 10 karakter");
         jPanel4.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, -1, -1));
 
